@@ -8,6 +8,7 @@ public class ForEachTest {
         list.add(new Test());
         list.add(new Test());
 
+        // 밑이 for each 구간
         for (Test t: list) {
             System.out.println(t);
         }
