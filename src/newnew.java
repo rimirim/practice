@@ -1,6 +1,6 @@
 public class newnew {
 
     public static void main(String[] args) {
-        System.out.println("fdkjhfgk");
+        System.out.println("fdkjhfgㄱㄷk");
     }
 }
