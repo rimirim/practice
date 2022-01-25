@@ -21,5 +21,6 @@ public class EqualRatio {
                     BigInteger.valueOf(ratio).pow(i));
         }
         return BigInteger.valueOf(ratio).pow(count - 1);
+
     }
 }
