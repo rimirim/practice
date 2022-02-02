@@ -21,7 +21,7 @@ public class RandomNum {
         numArr = new int[range];
     }
 
-    // 배열에 start값 부터 end값까지의 값을 할당해야함
+    // 배열에 start값 부터 end값까지의 값을 할당해야함!
 
     public void allcArr() {
         for (int i = start - 1; i < end; i++) {
