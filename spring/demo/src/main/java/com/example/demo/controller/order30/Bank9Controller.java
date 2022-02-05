@@ -1,11 +1,16 @@
 package com.example.demo.controller.order30;
 
+import com.example.demo.utility.product.EddiLotto;
+import com.example.demo.utility.product.LottoResponse;
 import com.example.demo.utility.product.Product;
+import com.example.demo.utility.product.TodayRecommend;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import static com.example.demo.utility.product.Product.game;
 import static com.example.demo.utility.product.Product.price;
@@ -33,13 +38,37 @@ public class Bank9Controller {
 
         Product product = new Product ();
 
-        model.addAttribute("kindOfGame", game());
-        model.addAttribute("price", price());
+        model.addAttribute("kindOfGame", game);
+        model.addAttribute("price", price);
 
         return "30th/product/main";
     }
 
-    // Post쪽에서 알아서 상품이 들어간다는 의미가 무엇일까 .. ?
+    @ResponseBody
+    @PostMapping("/today")
+    public TodayRecommend today (){
+
+        log.info("recommend game");
+        TodayRecommend tr = new TodayRecommend();
+
+        return tr;
+
+    }
+
+    //  JSON Viewer 상에서 로또에 당첨된 사람들은 부여받은 번호와 O가 표기되도록 만들어보자!
+
+    @ResponseBody
+    @PostMapping("/prob2")
+    public LottoResponse postBank9Prob2 () {
+        log.info ("post postBank9Prob2()");
+
+        EddiLotto el = new EddiLotto(100, 5);
+        el.raffle();
+
+        LottoResponse lr = new LottoResponse(el);
+
+        return lr;
+    }
 
 
 }
