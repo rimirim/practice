@@ -1,9 +1,6 @@
 package com.example.demo.controller.order30;
 
-import com.example.demo.utility.product.EddiLotto;
-import com.example.demo.utility.product.LottoResponse;
-import com.example.demo.utility.product.Product;
-import com.example.demo.utility.product.TodayRecommend;
+import com.example.demo.utility.product.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -68,6 +65,50 @@ public class Bank9Controller {
         LottoResponse lr = new LottoResponse(el);
 
         return lr;
+    }
+
+    //   웹상에 정삼각형, 정사각형, 정육각형을 선택할 수 있도록 만듭니다.
+    //   각 버튼에 따라서 이를 올바르게 처리할 수 있도록 서포트하여
+    //   올바른 넓이값을 화면상에 출력할 수 있도록 만들어봅시다!
+
+    @ResponseBody
+    @PostMapping("/prob3tri")
+    public PolygonResponse postBank9Prob3Triangle () {
+        log.info ("post postBank9Prob3Triangle()");
+
+        //RegularPolygon rp = new RegularPolygon(2.0f * (float) Math.sqrt(Math.sqrt(3.0f)));
+        RegularPolygon rp = new RegularPolygon(2.0f * (float) Math.pow(3.0f, 0.25f));
+        rp.calcTriangleArea();
+
+        PolygonResponse pr = new PolygonResponse(rp);
+
+        return pr;
+    }
+
+    @ResponseBody
+    @PostMapping("/prob3rect")
+    public PolygonResponse postBank9Prob3Rectangle () {
+        log.info ("post postBank9Prob3Rectangle()");
+
+        RegularPolygon rp = new RegularPolygon(1);
+        rp.calcRectangleArea();
+
+        PolygonResponse pr = new PolygonResponse(rp);
+
+        return pr;
+    }
+
+    @ResponseBody
+    @PostMapping("/prob3hexa")
+    public PolygonResponse postBank9Prob3Hexagon () {
+        log.info ("post postBank9Prob3Hexagon()");
+
+        RegularPolygon rp = new RegularPolygon(2.0f * (float) Math.sqrt(3.0f));
+        rp.calcHexagonArea();
+
+        PolygonResponse pr = new PolygonResponse(rp);
+
+        return pr;
     }
 
 
