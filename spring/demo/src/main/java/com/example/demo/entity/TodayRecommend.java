@@ -1,6 +1,8 @@
-package com.example.demo.utility.product;
+package com.example.demo.entity;
 
-public class TodayRecommend extends Product{
+import com.example.demo.entity.Product;
+
+public class TodayRecommend extends Product {
 
     private String rname;
     private int rprice;

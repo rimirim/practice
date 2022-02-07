@@ -1,5 +1,6 @@
-package com.example.demo.utility.product;
+package com.example.demo.entity.response;
 
+import com.example.demo.entity.EddiLotto;
 import lombok.Data;
 
 import java.util.HashMap;

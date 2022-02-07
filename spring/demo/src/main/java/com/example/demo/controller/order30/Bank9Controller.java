@@ -1,6 +1,8 @@
 package com.example.demo.controller.order30;
 
-import com.example.demo.utility.product.*;
+import com.example.demo.entity.*;
+import com.example.demo.entity.response.LottoResponse;
+import com.example.demo.entity.response.PolygonResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import static com.example.demo.utility.product.Product.game;
-import static com.example.demo.utility.product.Product.price;
+import static com.example.demo.entity.Product.game;
+import static com.example.demo.entity.Product.price;
 
 @Slf4j
 @Controller

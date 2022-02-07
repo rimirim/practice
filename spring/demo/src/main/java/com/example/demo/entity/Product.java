@@ -1,4 +1,4 @@
-package com.example.demo.utility.product;
+package com.example.demo.entity;
 
 import lombok.Data;
 
