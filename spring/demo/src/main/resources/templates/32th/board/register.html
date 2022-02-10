@@ -25,25 +25,24 @@
 
     <!-- form은 th:object에 의해 실제 Board 객체에 우리가 기입한 내용들이 알아서
         객체화되어 기록되고 있는 중임 -->
-
     <form id="board" th:object="${board}">
         <table>
             <tr>
                 <td>제목</td>
                 <td>
-                    <input type="text" name="title" th:field=*{title}"/>
+                    <input type="text" name="title" th:field="*{title}"/>
                 </td>
             </tr>
             <tr>
                 <td>작성자</td>
                 <td>
-                    <input type="text" name="writer" th:field=*{writer}"/>
+                    <input type="text" name="writer" th:field="*{writer}"/>
                 </td>
             </tr>
             <tr>
                 <td>본문</td>
                 <td>
-                    <input type="text" name="content" th:field=*{content}"/>
+                    <input type="text" name="content" th:field="*{content}"/>
                 </td>
             </tr>
         </table>

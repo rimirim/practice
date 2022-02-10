@@ -26,20 +26,18 @@ public class BoardRepository {
 
     }
 
-    public List<Board> list(){
-
+    public List<Board> list() {
         // jdbcTemplate.query(A, B)
         // A에 해당하는 DB Query를 실행함
         // B에는 A에 배치될 정보들이 들어가며
         // 현재 RowMapper가 이 정보를 하나하나 처리해주고 있음
         // 모든 데이터를 싹 다 가져오게 되어있음
-
-        // select * 하게 되면 모든 column들을 가져오게됨
         List<Board> results = jdbcTemplate.query(
-                "select board_no, title, content, writer, reg_data from board" +
-                "where board_no > 0 order by board_no desc",
+                "select board_no, title, content, writer, reg_date from board " +
+                        "where board_no > 0 order by board_no desc",
 
-               new RowMapper<Board>(){
+                // 요놈이 하나씩 넘겨줌
+                new RowMapper<Board>() {
                     @SneakyThrows
                     @Override
                     public Board mapRow(ResultSet rs, int rowNum) throws SQLException {
@@ -61,7 +59,7 @@ public class BoardRepository {
 
                         return board;
                     }
-               }
+                }
         );
 
         return results;
