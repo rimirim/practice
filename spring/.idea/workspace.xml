@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="게시판 만들기 - 게시글 등록">
+    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="게시판 만들기 (읽기, 쓰기, 수정, 삭제, 목록)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644498553951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="게시판 만들기 (읽기, 쓰기, 수정, 삭제, 목록)">
+      <created>1644512360933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644512360933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +105,7 @@
     <MESSAGE value="스프링 JSON 연습 2" />
     <MESSAGE value="스프링 패키지 정리" />
     <MESSAGE value="게시판 만들기 - 게시글 등록" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시판 만들기 - 게시글 등록" />
+    <MESSAGE value="게시판 만들기 (읽기, 쓰기, 수정, 삭제, 목록)" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시판 만들기 (읽기, 쓰기, 수정, 삭제, 목록)" />
   </component>
 </project>
