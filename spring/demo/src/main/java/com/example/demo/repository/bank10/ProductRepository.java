@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.repository.bank10;
 
 import com.example.demo.entity.bank10.Product;
 import lombok.SneakyThrows;
@@ -19,7 +19,7 @@ public class ProductRepository {
         private JdbcTemplate jdbcTemplate;
 
         public void create (Product product) {
-            String query = "insert into product (name, price, content, provider) values (?, ?, ?, ?)";
+            String query = "insert into product (product_name, product_price, content, provider) values (?, ?, ?, ?)";
 
             //각각 value ? ? ? 에 들어가게된다.
             jdbcTemplate.update(query, product.getName(), product.getPrice(), product.getContent(), product.getProvider());
@@ -29,7 +29,7 @@ public class ProductRepository {
         public List<Product> list() {
 
             List<Product> results = jdbcTemplate.query(
-                    "select product_name, product_price from product " +
+                    "select * from product " +
                             "where product_no > 0 order by product_no desc",
 
                     // 요놈이 하나씩 넘겨줌
@@ -88,7 +88,7 @@ public class ProductRepository {
         public void update(Product product) {
             String query = "update product set product_name = ?, product_price = ?, content = ? where product_no = ?";
 
-            jdbcTemplate.update(query, product.getName(), product.getPrice(), product.getContent());
+            jdbcTemplate.update(query, product.getName(), product.getPrice(), product.getContent(), product.getProductNo());
 
         }
 

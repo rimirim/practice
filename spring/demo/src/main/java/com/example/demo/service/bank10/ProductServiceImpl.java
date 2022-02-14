@@ -1,8 +1,7 @@
-package com.example.demo.service;
+package com.example.demo.service.bank10;
 
 import com.example.demo.entity.bank10.Product;
-import com.example.demo.entity.order32.Board;
-import com.example.demo.repository.ProductRepository;
+import com.example.demo.repository.bank10.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

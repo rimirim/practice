@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.repository.order32;
 
 import com.example.demo.entity.order32.Board;
 import lombok.SneakyThrows;

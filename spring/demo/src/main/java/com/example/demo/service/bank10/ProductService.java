@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.service.bank10;
 
 import com.example.demo.entity.bank10.Product;
 import com.example.demo.entity.order32.Board;

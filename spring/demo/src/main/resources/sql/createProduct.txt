@@ -1,0 +1,8 @@
+create table product(
+    product_no int not null auto_increment,
+    product_name varchar(200) not null,
+    content text null,
+    product_price int not null,
+    provider varchar(50) not null,
+    primary key(product_no)
+);
