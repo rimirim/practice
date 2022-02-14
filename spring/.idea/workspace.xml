@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="상품 게시판 만들기 (미완성)" />
+    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="상품 게시판 만들기 (등록, 상세보기, 수정, 삭제)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644671769890</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="상품 게시판 만들기 (등록, 상세보기, 수정, 삭제)">
+      <created>1644840521194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644840521194</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +119,7 @@
     <MESSAGE value="게시판 만들기 - 게시글 등록" />
     <MESSAGE value="게시판 만들기 (읽기, 쓰기, 수정, 삭제, 목록)" />
     <MESSAGE value="상품 게시판 만들기 (미완성)" />
-    <option name="LAST_COMMIT_MESSAGE" value="상품 게시판 만들기 (미완성)" />
+    <MESSAGE value="상품 게시판 만들기 (등록, 상세보기, 수정, 삭제)" />
+    <option name="LAST_COMMIT_MESSAGE" value="상품 게시판 만들기 (등록, 상세보기, 수정, 삭제)" />
   </component>
 </project>

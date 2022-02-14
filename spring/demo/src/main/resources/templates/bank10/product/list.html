@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/css/productBoard.css">
 </head>
 <body>
 
@@ -26,7 +27,7 @@
     <tr th:each="product : ${list}">
         <td align="center" th:text="${product.productNo}">
         </td>
-        <td align="left" th:text="${product.name}">
+        <td align="center" th:text="${product.name}">
         </td>
         <td align="right" th:text="${product.price}">
         </td>
