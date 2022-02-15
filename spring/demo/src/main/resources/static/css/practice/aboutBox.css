@@ -1,0 +1,42 @@
+body > h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: crimson;
+}
+div {
+    border: 1px solid #fa8072;
+}
+#section {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto; /* 화면 중앙 배치 */
+    background: #fa8072;
+}
+#header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffDab9;
+}
+#header > h1 {
+    text-align: center;
+}
+#contents {
+    width: 500px;
+    padding: 20px;
+    float: left;
+    margin-bottom: 20px;
+    background: #ffDab9;
+
+}
+#sidebar {
+    width: 360px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background: #F8F8FF;
+}
+#banner {
+    clear: both;
+    padding: 20px;
+}

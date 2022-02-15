@@ -1,0 +1,11 @@
+#mario {
+    background:url(../mario.png) no-repeat;
+    background-size: cover;
+    width: 125px;
+    height: 150px;
+        margin: 20px;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 75px/62.5px;
+
+}
