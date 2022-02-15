@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/js")
 public class JsPractice {
 
+    @GetMapping("/boolTest")
+    public String boolTest (){
+        log.info ("boolean Test");
+
+        return "/js/boolTest";
+    }
     @GetMapping("/classTest")
     public String classTest (){
         log.info ("class Test");
