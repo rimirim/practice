@@ -16,11 +16,19 @@ public class JsPractice {
 
         return "/js/boolTest";
     }
+
     @GetMapping("/classTest")
     public String classTest (){
         log.info ("class Test");
 
         return "/js/classTest";
+    }
+
+    @GetMapping("/equalTest")
+    public String equalTest () {
+        log.info("equalTest()");
+
+        return "/39th/js/equalTest";
     }
 
     @GetMapping("/equalTest2")
