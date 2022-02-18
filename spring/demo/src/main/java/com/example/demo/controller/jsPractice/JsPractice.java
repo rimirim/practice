@@ -37,4 +37,11 @@ public class JsPractice {
 
         return "/39th/js/equalTest2";
     }
+
+    @GetMapping("/spreadTest")
+    public String spreadTest () {
+        log.info("spreadTest()");
+
+        return "/39th/js/spreadTest";
+    }
 }
