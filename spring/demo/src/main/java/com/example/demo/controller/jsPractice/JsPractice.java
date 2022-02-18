@@ -22,4 +22,11 @@ public class JsPractice {
 
         return "/js/classTest";
     }
+
+    @GetMapping("/equalTest2")
+    public String equalTest2 () {
+        log.info("equalTest2()");
+
+        return "/39th/js/equalTest2";
+    }
 }
