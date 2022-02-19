@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="자바스크립트 boolean 연습" />
+    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="자바스크립트 spreadTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +27,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../khweb19/LectureContents/spring/demo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\practice\spring\demo\src\main\resources\templates\js" />
+      <recent name="C:\practice\spring\demo\src\main\resources\static\js" />
       <recent name="C:\practice\spring\demo\src\main\java\com\example\demo\utility\product" />
     </key>
   </component>
@@ -132,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645104005385</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="자바스크립트 coincidence">
+      <created>1645182511783</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645182511783</updated>
+    </task>
+    <task id="LOCAL-00015" summary="자바스크립트 equalTest">
+      <created>1645182603813</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645182603813</updated>
+    </task>
+    <task id="LOCAL-00016" summary="자바스크립트 spreadTest">
+      <created>1645182683622</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645182683622</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +185,9 @@
     <MESSAGE value="Css연습 - 박스" />
     <MESSAGE value="자바스크립트 class 연습" />
     <MESSAGE value="자바스크립트 boolean 연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 boolean 연습" />
+    <MESSAGE value="자바스크립트 coincidence" />
+    <MESSAGE value="자바스크립트 equalTest" />
+    <MESSAGE value="자바스크립트 spreadTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 spreadTest" />
   </component>
 </project>
