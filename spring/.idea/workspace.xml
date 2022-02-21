@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="자바스크립트 Array repeat" />
+    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="자바스크립트 Array api">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/jsPractice/JsPractice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/js/LetVariable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/ncvue/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,15 +29,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/templates/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/templates/ncvue" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\practice\spring\demo\src\main\resources\templates\js" />
-      <recent name="C:\practice\spring\demo\src\main\resources\static\js\2" />
+      <recent name="C:\practice\spring\demo\src\main\resources\templates\ncvue" />
       <recent name="C:\practice\spring\demo\src\main\java\com\example\demo\controller\jsPractice" />
       <recent name="C:\practice\spring\demo\src\main\resources\static\js" />
-      <recent name="C:\practice\spring\demo\src\main\java\com\example\demo\utility\product" />
+      <recent name="C:\practice\spring\demo\src\main\resources\static\js\2" />
+      <recent name="C:\practice\spring\demo\src\main\resources\templates\js" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -164,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645446846509</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="자바스크립트 Array api">
+      <created>1645447090294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645447090294</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +207,7 @@
     <MESSAGE value="자바스크립트 equalTest" />
     <MESSAGE value="자바스크립트 spreadTest" />
     <MESSAGE value="자바스크립트 Array repeat" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 Array repeat" />
+    <MESSAGE value="자바스크립트 Array api" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 Array api" />
   </component>
 </project>
