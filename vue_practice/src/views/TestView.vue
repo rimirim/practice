@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+    <div class="home">
         <div id="header">
             <router-link :to="{ name: 'Home' }"
                 class="nav-link"   
@@ -12,16 +12,22 @@
                 Test
             </router-link>
         </div>
-  </div>
+
+       <h2> Vue 테스트페이지 </h2>
+
+      <div id="app">
+          <p> {{ msg }}</p>
+       </div>
+    </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-  }
+    data () {
+        return {
+            msg: '이래서 Vue가 생산성이 높음'
+        }
+    }
 }
 </script>
