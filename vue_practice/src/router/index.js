@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TestView from '@/views/TestView.vue'
+import BoardListPage from '@/views/board/BoardListPage.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/test',
     name: 'Test',
     component: TestView
+  },
+  {
+    path: '/boardlist',
+    name: 'BoardListPage',
+    component: BoardListPage
   }
 ]
 
