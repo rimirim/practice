@@ -37,7 +37,4 @@ public class BoardServiceImpl implements BoardService {
     public void remove(Integer boardNo) {
         repository.delete(boardNo);
     }
-
-
-
 }

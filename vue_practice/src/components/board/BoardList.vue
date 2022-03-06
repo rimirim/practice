@@ -8,7 +8,7 @@
                 <th align="center" width="150"> 작성자 </th>
                 <th align="center" width="240"> 등록일자 </th>
             </tr>
-            <tr v-if="!boards || (Array.isArray(boards) && board.length === 0)">
+            <tr v-if="!boards || (Array.isArray(boards) && boards.length === 0)">
                 <td colspan="4">
                     현재 등록된 게시물이 없습니다 !
                 </td>

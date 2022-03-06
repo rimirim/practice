@@ -2,7 +2,7 @@
     <div id="board">
         <h2> Vue + Spring 게시판 </h2>
         <p> 게시물 작성 </p>
-        <board-list :board="boards"/>
+        <board-list :boards="boards"/>
     </div>
 </template>
 
