@@ -29,4 +29,13 @@ public class vueBoardController {
 
         return new ResponseEntity<>(service.list(), HttpStatus.OK);
     }
+
+    @PostMapping("/register")
+    public ResponseEntity<Board> postRegisterBoard (@RequestBody Board board){
+        log.info("postRegisterBoard()");
+
+        service.register(board);
+
+        return new ResponseEntity<>(board, HttpStatus.OK);
+    }
 }
