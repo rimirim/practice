@@ -34,7 +34,7 @@ const routes = [
   {
     path: '/boardRead/:boardNo',
     name: 'BoardReadPage',
-    component: {
+    components: {
       default: BoardReadPage
     },
     props: {
@@ -44,7 +44,7 @@ const routes = [
   {
     path: '/boardModify/:boardNo',
     name: 'BoardModifyPage',
-    component: {
+    components: {
       default: BoardModifyPage
     },
     props: {

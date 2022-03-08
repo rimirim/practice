@@ -1,11 +1,11 @@
 <template>
-    <div aligh="center">
+    <div align="center">
         <h2> Vue + Spring 게시판 읽기 </h2>
-        <!--
-        <board-read v-if="board" :boards="board"/>
+        <board-read v-if="board" :board="board"/>
         <p v-else> 로딩중 ..... </p>
-        -->
-        <router-link> 게시물 수정 </router-link>
+        <router-link :to="{ name: 'BoardModifyPage', params: { boardNo } }">
+            게시물 수정 
+        </router-link>
         <button @click="onDelete"> 삭제 </button>
         <router-link :to="{ name: 'BoardListPage' }">
             게시물 보기
@@ -16,6 +16,7 @@
 <script>
 
 // import axios from 'axios'
+import BoardRead from '@/components/board/BoardRead.vue'
 import { mapActions, mapState } from 'vuex'
 
 export default {
@@ -27,22 +28,22 @@ export default {
         }
     },
     components: {
-
+        BoardRead
     },
     computed: {
         ...mapState(['board'])
     },
     created () {
         this.fetchBoard(this.boardNo)
-        .catch(() => {
-            alert('게시물 요청 실패 !')
-            this.$router.push()
-        })
+            .catch(() => {
+                alert('게시물 요청 실패 !')
+                this.$router.push()
+            })
     },
     methods: {
         ...mapActions(['fetchBoard']),
         onDelete () {
-            const { boardNo } = this.boardNo
+            const { boardNo } = this.board
             alert('지우는 게시물 번호: ' + boardNo)
         }
     }

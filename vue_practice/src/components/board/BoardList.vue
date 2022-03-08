@@ -19,7 +19,7 @@
                 </td>
                 <td aligh="left">  
                     <router-link :to="{ name: 'BoardReadPage' ,
-                                        params: {boardNo: board.boardNo.toString() } }">
+                                        params: { boardNo: board.boardNo.toString() } }">
                     {{ board.title }}
                     </router-link>
                 </td>

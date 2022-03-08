@@ -38,4 +38,16 @@ public class vueBoardController {
 
         return new ResponseEntity<>(board, HttpStatus.OK);
     }
+
+    @GetMapping("/{boardNo}")
+    public ResponseEntity<Board> getVueBoardRead(
+            @PathVariable ("boardNo") Integer boardNo) {
+        log.info("getVueBoardRead()");
+
+        Board board = service.read(boardNo);
+
+        return new ResponseEntity<>(board, HttpStatus.OK);
+    }
+
+
 }
