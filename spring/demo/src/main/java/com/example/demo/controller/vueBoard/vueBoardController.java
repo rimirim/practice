@@ -49,5 +49,17 @@ public class vueBoardController {
         return new ResponseEntity<>(board, HttpStatus.OK);
     }
 
+    @PutMapping("/{boardNo}")
+    public ResponseEntity<Board> modify(
+            @PathVariable("boardNo") Integer boardNo,
+            @RequestBody Board board){
+        log.info("vueBoardModify()");
+
+        board.setBoardNo(boardNo);
+        service.modify(board);
+
+        return new ResponseEntity<>(board, HttpStatus.OK);
+    }
+
 
 }
