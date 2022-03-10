@@ -61,5 +61,15 @@ public class vueBoardController {
         return new ResponseEntity<>(board, HttpStatus.OK);
     }
 
+    @DeleteMapping("/{boardNo}")
+    public ResponseEntity<Void> vueBoardRemove(
+            @PathVariable("boardNo") Integer boardNo) {
+        log.info("vueBoardRemove()");
+
+        service.remove(boardNo);
+
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
 
 }
