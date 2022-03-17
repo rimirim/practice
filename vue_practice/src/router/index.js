@@ -9,6 +9,7 @@ import BoardReadPage from '@/views/board/BoardReadPage.vue'
 import BoardModifyPage from '@/views/board/BoardModifyPage.vue'
 
 import CoverFlowTest from '@/views/ui/CoverFlowTest.vue'
+import AwesomeSwiper from '@/views/ui/AwesomeSwiper.vue'
 
 Vue.use(VueRouter)
 
@@ -57,6 +58,11 @@ const routes = [
     path: '/CoverFlowTest',
     name: 'CoverFlowTest',
     component: CoverFlowTest
+  },
+  {
+    path: '/AwesomeSwiper',
+    name: 'AwesomeSwiper',
+    component: AwesomeSwiper
   }
 ]
 
