@@ -11,6 +11,7 @@ import BoardModifyPage from '@/views/board/BoardModifyPage.vue'
 import CoverFlowTest from '@/views/ui/CoverFlowTest.vue'
 import AwesomeSwiper from '@/views/ui/AwesomeSwiper.vue'
 import VeutifyImageTestPage from '@/views/ui/VeutifyImageTestPage.vue'
+import VeutifyAllTestPage from '@/views/ui/VeutifyAllTestPage.vue'
 
 import VueFileUploadPage from '@/views/fileUpload/VueFileUploadPage.vue'
 
@@ -77,6 +78,11 @@ const routes = [
     path: '/VeutifyImageTest',
     name: 'VeutifyImageTestPage',
     component: VeutifyImageTestPage
+  },
+  {
+    path: '/VeutifyAllTestPage',
+    name: 'VeutifyAllTestPage',
+    component: VeutifyAllTestPage
   }
 ]
 
