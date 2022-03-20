@@ -10,8 +10,10 @@ import BoardModifyPage from '@/views/board/BoardModifyPage.vue'
 
 import CoverFlowTest from '@/views/ui/CoverFlowTest.vue'
 import AwesomeSwiper from '@/views/ui/AwesomeSwiper.vue'
+import VeutifyImageTestPage from '@/views/ui/VeutifyImageTestPage.vue'
 
 import VueFileUploadPage from '@/views/fileUpload/VueFileUploadPage.vue'
+
 
 Vue.use(VueRouter)
 
@@ -70,6 +72,11 @@ const routes = [
     path: '/VueFileUploadTest',
     name: 'VueFileUploadPage',
     component: VueFileUploadPage
+  },
+  {
+    path: '/VeutifyImageTest',
+    name: 'VeutifyImageTestPage',
+    component: VeutifyImageTestPage
   }
 ]
 
