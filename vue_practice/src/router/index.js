@@ -11,6 +11,8 @@ import BoardModifyPage from '@/views/board/BoardModifyPage.vue'
 import CoverFlowTest from '@/views/ui/CoverFlowTest.vue'
 import AwesomeSwiper from '@/views/ui/AwesomeSwiper.vue'
 
+import VueFileUploadPage from '@/views/fileUpload/VueFileUploadPage.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -63,6 +65,11 @@ const routes = [
     path: '/AwesomeSwiper',
     name: 'AwesomeSwiper',
     component: AwesomeSwiper
+  },
+  {
+    path: '/VueFileUploadTest',
+    name: 'VueFileUploadPage',
+    component: VueFileUploadPage
   }
 ]
 
