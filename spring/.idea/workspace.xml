@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="Vue index" />
+    <list default="true" id="0e9e28e9-574f-482c-907a-615da3446648" name="Changes" comment="python Spring Requester" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/templates/ncvue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645447422954</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="python Spring Requester">
+      <created>1652950700769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652950700769</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +219,7 @@
     <MESSAGE value="자바스크립트 Array repeat" />
     <MESSAGE value="자바스크립트 Array api" />
     <MESSAGE value="Vue index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue index" />
+    <MESSAGE value="python Spring Requester" />
+    <option name="LAST_COMMIT_MESSAGE" value="python Spring Requester" />
   </component>
 </project>
